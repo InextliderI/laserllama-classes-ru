@@ -1,0 +1,81 @@
+{
+  "id": "laserllama-classes-ru",
+  "title": "Альтернативный монах от LaserLlama",
+  "description": "Модуль, добавляющий альтернативного монаха в систему DnD 5e на русском языке(перевод dnd.su + ttg.club + gemini).",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "nextlider"
+    }
+  ],
+  "packs": [
+    {
+      "name": "classes-and-features",
+      "label": "Класс и оссобенности",
+      "path": "packs/classes-and-features",
+      "type": "Item",
+      "system": "dnd5e" 
+    },
+    {
+      "name": "bestiarij",
+      "label": "Бестиарий",
+      "path": "packs/bestiarij",
+      "type": "Actor",
+      "system": "dnd5e" 
+    },
+    {
+      "name": "makrosy",
+      "label": "Макросы",
+      "path": "packs/makrosy",
+      "type": "Macro",
+      "system": "dnd5e" 
+    },
+    {
+      "name": "predmety",
+      "label": "Предметы",
+      "path": "packs/predmety",
+      "type": "Item",
+      "system": "dnd5e" 
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Laserllama Alt Monk",
+      "label": "Монах (LaserLlama)",
+      "color": "#8b0000",
+      "packs": [
+        "classes-and-features",
+        "bestiarij",
+        "makrosy",
+        "predmety"
+      ]
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.3.0"
+        }
+      },
+      {
+        "id": "midi-qol",
+        "type": "module"
+      },
+      {
+        "id": "dae",
+        "type": "module"
+      },
+      {
+        "id": "item-macro",
+        "type": "module"
+      }
+    ]
+  }
+}
