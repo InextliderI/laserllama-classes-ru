@@ -1,0 +1,24 @@
+# Альтернативный Монах (LaserLlama) для Foundry VTT
+
+Этот модуль переносит в Foundry VTT переработанный класс **Alternate Monk** от популярного автора homebrew [LaserLlama](https://www.gmbinder.com/profile/laserllama). 
+
+Модуль создавался с упором на нативные механики ядра D&D 5e (v5.2.0+) и максимальную чистоту листа персонажа. Масштабирование урона, трата Ци и замена костей прописаны через математические формулы и систему Активностей.
+
+## 🌟 Что внутри?
+- **Базовый класс Alternate Monk (1-20 уровни)** с полностью настроенным Продвижением и масштабированием Кости Боевых Искусств.
+- **Все  Техники:** Полностью и детально реализованы как базовые, так и расширенные приёмы боевых искусств.
+- **Путь Открытой Ладони (Way of the Open Hand)**
+- **Путь Тени (Way of Shadow)**
+- **Путь Восходящего Дракона (Way of the Ascendant Dragon)**
+- **Путь Сияния (Way of Radiance)**
+- **Путь Сияющей Стали (Way of Shining Steel)**
+- **Путь Ву-Чжень (Way of the Wu Jen)**
+- **Путь Астрального Воина (Way of the Astral Warrior)**
+- **Путь Гармонии (Way of Harmony)**
+- **Путь Жнеца (Way of the Reaper)**
+- **Путь Пьяного Кулака (Way of the Drunken Fist)**
+
+## ⚙️ Требования
+Для корректной работы способностей и автоматизации необходимы следующие системы и модули:
+- **Система:** D&D 5e (v5.2.0 или выше)
+- **Модули:** [Midi-QOL](https://foundryvtt.com/packages/midi-qol), [DAE (Dynamic Active Effects)](https://foundryvtt.com/packages/dae), [Item Macro](https://foundryvtt.com/packages/itemacro)
