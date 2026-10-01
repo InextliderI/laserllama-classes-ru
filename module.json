@@ -2,7 +2,7 @@
   "id": "laserllama-classes-ru",
   "title": "Альтернативный монах от LaserLlama",
   "description": "Модуль, добавляющий альтернативного монаха в систему DnD 5e на русском языке(перевод dnd.su + ttg.club + gemini).",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "url": "https://github.com/InextliderI/laserllama-classes-ru",
   "manifest": "https://raw.githubusercontent.com/InextliderI/laserllama-classes-ru/main/module.json",
   "download": "https://github.com/InextliderI/laserllama-classes-ru/releases/latest/download/module.zip",
